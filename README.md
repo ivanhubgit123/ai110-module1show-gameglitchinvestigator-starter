@@ -25,29 +25,29 @@ It wrote the code, ran away, and now the game is unplayable.
 
 ## 📝 Document Your Experience
 
-- [ ] Describe the game's purpose.
-- [ ] Detail which bugs you found.
-- [ ] Explain what fixes you applied.
+- A number guessing game between a certain range based of difficulty and number of attempts
+- A few bugs I found were hints were reversed and secret number reset on every button click.
+- I corrected the comparison logic in logic_utils.py and the moved secret number generation into st.session_state.
 
 ## 📸 Demo Walkthrough
 
 Describe your fixed game in numbered steps so a reader can follow along without watching a video:
 
-1. <!-- Describe this step -->
-2. <!-- Describe this step -->
-3. <!-- Describe this step -->
-4. <!-- Describe this step -->
-5. <!-- Add more steps as needed -->
-
+1. Guess a number such as 30.
+2. Game says too low.
+3. Guess a number such as 70.
+4. Game says too high.
+5. Keep guessing until number is correct or run out of attempts.
 **Screenshot** *(optional)*: <!-- Insert a screenshot of your fixed, winning game here -->
 
 ## 🧪 Test Results
 
-```
-# Paste your pytest output here, e.g.:
-# pytest tests/
-# ========================= X passed in 0.XXs =========================
-```
+============================= test session starts ==============================
+collected 3 items
+
+tests/test_game_logic.py ...                                             [100%]
+
+============================== 3 passed in 0.12s ===============================
 
 ## 🚀 Stretch Features
 
