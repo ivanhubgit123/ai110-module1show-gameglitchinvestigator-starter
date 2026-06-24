@@ -38,6 +38,7 @@ Describe your fixed game in numbered steps so a reader can follow along without 
 3. Guess a number such as 70.
 4. Game says too high.
 5. Keep guessing until number is correct or run out of attempts.
+
 **Screenshot** *(optional)*: <!-- Insert a screenshot of your fixed, winning game here -->
 
 ## 🧪 Test Results
